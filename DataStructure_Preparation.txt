@@ -1,0 +1,17 @@
+Ques-1>  LINKED LIST
+A linked list is a linear data structure that includes a series of connected nodes. 
+linked lists are stored in a non-contiguous memory location. To add a new element, we just have to create a node somewhere in the memory and get it pointed by the previous element. And deleting an element we just have to skip pointing to that particular node.
+
+Structure of a Linked List:
+Every element in a linked list is called a node and consists of two parts, the data part, and the pointer part. The data part stores the value, while the pointer part stores the pointer pointing to the address of the next node.
+Both of these structures (arrays and linked lists) are linear data structures
+
+	
+			ArrayList										LinkedList
+* ArrayList internally uses a dynamic array to store its elements.		     * 	LinkedList uses Doubly Linked List to store its elements.
+* Manipulating ArrayList takes more time due to the internal implementation.	     *	Manipulating LinkedList takes less time compared to ArrayList because, in a  	
+  Whenever we remove an element, internally, the array is traversed and the 		doubly-linked list, there is no concept of shifting the memory bits. The list  	
+  memory bits are shifted.								is traversed and the reference link is changed.
+* ArrayList is faster in storing and accessing data.				     *  LinkedList is faster in manipulation of data. 	
+* The memory location for the elements of an ArrayList is contiguous.		     *  The location for the elements of a linked list is not contagious.
+	
