@@ -1,6 +1,7 @@
 Ques-1>  LINKED LIST
-A linked list is a linear data structure that includes a series of connected nodes. 
-linked lists are stored in a non-contiguous memory location. To add a new element, we just have to create a node somewhere in the memory and get it pointed by the previous element. And deleting an element we just have to skip pointing to that particular node.
+ A linked list is a linear data structure that includes a series of connected nodes. 
+ linked lists are stored in a non-contiguous memory location. To add a new element, we just have to create a node somewhere in the memory and get it pointed by the   
+ previous element. And deleting an element we just have to skip pointing to that particular node.
 
 Structure of a Linked List:
 Every element in a linked list is called a node and consists of two parts, the data part, and the pointer part. The data part stores the value, while the pointer part stores the pointer pointing to the address of the next node.
