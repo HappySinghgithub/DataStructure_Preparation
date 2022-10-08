@@ -9,9 +9,34 @@ Both of these structures (arrays and linked lists) are linear data structures
 	
 			ArrayList										LinkedList
 * ArrayList internally uses a dynamic array to store its elements.		     * 	LinkedList uses Doubly Linked List to store its elements.
-* Manipulating ArrayList takes more time due to the internal implementation.	     *	Manipulating LinkedList takes less time compared to ArrayList because, in a  	
-  Whenever we remove an element, internally, the array is traversed and the 		doubly-linked list, there is no concept of shifting the memory bits. The list  	
+* Manipulating ArrayList takes more time due to the internal implementation.	     *	Manipulating LinkedList takes less time compared to ArrayList because, in a  
+  Whenever we remove an element, internally, the array is traversed and the 		doubly-linked list, there is no concept of shifting the memory bits. The list  
   memory bits are shifted.								is traversed and the reference link is changed.
 * ArrayList is faster in storing and accessing data.				     *  LinkedList is faster in manipulation of data. 	
 * The memory location for the elements of an ArrayList is contiguous.		     *  The location for the elements of a linked list is not contagious.
 	
+1.Singly Linked List
+  A singly linked list is a unidirectional linked list. We can only traverse it in one direction, i.e., from head node to tail node.
+  
+2.Doubly Linked List
+  A doubly linked list is a bi-directional linked list. We can traverse it in both directions. Unlike singly linked lists, its nodes contain one extra pointer     
+  called the previous pointer. This pointer points to the previous node.
+  
+3. Circular Linked List
+   A circular linked list is either a singly or doubly linked list in which there are no NULL values. Here, we can implement the Circular Linked List by making the use 
+   of Singly or Doubly Linked List. In the case of a singly linked list, the next of the last node contains the address of the first node and in case of a doubly- 
+   linked list, the next of last node contains the address of the first node and prev of the first node contains the address of the last node.
+   
+   	
+	Singly Linked List									Doubly Linked List
+* The singly linked list can be traversed only in the forward direction.	* The doubly linked list can be accessed in both directions.
+* When we want to save memory and do not need to perform searching,		* In case of better implementation, while searching, we prefer a doubly linked list.
+  we prefer a singly linked list.
+* A singly linked list consumes less memory as compared to the doubly		* The doubly linked list consumes more memory as compared to the singly linked list.
+  linked list.
+* It is less efficient as compared to a doubly-linked list.			* It is more efficient
+* It can be implemented on the stack.						* It can be implemented on stack, heap and binary tree.
+* In a singly linked list, the time complexity for inserting and		* In a doubly-linked list, the time complexity for inserting and deleting an element is 
+  deleting an element from the list is O(n).					  O(1).
+  
+  
