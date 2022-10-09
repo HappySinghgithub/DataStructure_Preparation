@@ -41,4 +41,35 @@ Structure of a Linked List:
 * In a singly linked list, the time complexity for inserting and		* In a doubly-linked list, the time complexity for inserting and deleting an element is 
   deleting an element from the list is O(n).					  O(1).
   
-  
+  Ques-2 Queue
+  	 A queue is defined as a linear data structure that stores the elements sequentially. It is open at both ends and the operations are performed in First In 
+	 First Out (FIFO) order. 
+  	 EXAMPLE: The real-world example of a queue is the ticket queue outside a cinema hall, where the person who enters first in the queue gets the ticket first, 
+	 and the last person enters in the queue gets the ticket at last. Similar approach is followed in the queue in data structure.
+	 Element is inserted from one end called the REAR(also called tail), and the removal of existing element takes place from the other end called as FRONT
+	 The process to add an element into queue is called Enqueue and the process of removal of an element from queue is called Dequeue.
+	 Types of Queue
+	 1. Simple Queue
+	    The simple queue is a normal queue where insertion takes place at the FRONT of the queue and deletion takes place at the END of the queue.
+	    The major drawback of using a linear Queue is that insertion is done only from the rear end. Suppose limit of the queue is 4. If the first three elements 
+	    are deleted from the Queue, we cannot insert more elements even though the space is available in a Linear Queue. In this case, the linear Queue shows the 
+	    overflow condition as the rear is pointing to the last element of the Queue.
+	 2. Circular Queue
+	    In a circular queue, the last node is connected to the first node.
+	    Circular queue is also called as Ring Buffer.
+	    Insertion in a circular queue happens at the FRONT and deletion at the END of the queue.
+	    The main advantage of using the circular queue is better memory utilization.
+	    EXAMPLE
+	    Traffic system: In a computer-control traffic system, traffic light is one of the best examples of the circular queue. Each light of traffic light gets ON 
+	    one by one after every jinterval of time. Like red light gets ON for one minute then yellow light for one minute and then green light. After green light, 
+	    the red light gets ON.
+	 3. Priority Queue
+	    It is a special type of queue in which the elements are arranged based on the priority. It is a special type of queue data structure in which every element 
+	    has a priority associated with it. Suppose some elements occur with the same priority, they will be arranged according to the FIFO principle.
+	    Insertion in priority queue takes place based on the arrival, while deletion in the priority queue occurs based on the priority. Priority queue is mainly 
+	    used to implement the CPU scheduling algorithms.
+	 4. Deque (or, Double Ended Queue)
+	    In Deque or Double Ended Queue, insertion and deletion can be done from both ends of the queue either from the front or rear.
+	    Deque can be used both as stack and queue as it allows the insertion and deletion operations on both ends. Deque can be considered as stack because stack 
+	    follows the LIFO (Last In First Out) principle in which insertion and deletion both can be performed only from one end. And in deque, it is possible to 
+	    perform both insertion and deletion from one end, and Deque does not follow the FIFO principle.
